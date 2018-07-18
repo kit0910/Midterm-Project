@@ -9,7 +9,7 @@ file = arg_list[1]
 modified_file = arg_list[2]
 
 
-def main():
+def main():  #function
     with open(file, 'r',newline='') as csv_file:
         lines = csv_file.readlines()
 
